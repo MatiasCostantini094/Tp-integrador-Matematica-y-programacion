@@ -3,12 +3,12 @@ numero= print("App De Binario <-> Decimal")
 #Con un While true , nos inidica que siempre sera verdader la condicion , significa que el  programa se ejecuta
 #Se cortara el While si se  encuentra con un brack o con una salida  
 while True:     
-    print("\nMenú:")
+    print(" \nMenú:")
     print("1. Decimal a Binario")
     print("2. Binario a Decimal")
     print("3. Salir")
     #Se muestra el menu de opciones para el usuario 
-    opcion = input("Selecciona una opción (1/2/3): ") #Se pide al usuario que ingrese una opcion del menu
+    opcion = input(" \nSelecciona una opción (1/2/3): ") #Se pide al usuario que ingrese una opcion del menu
     #Opcion 1
     if opcion == "1": #Verifica si la opcion seleccionada  es 1
         numero = input("Ingresa un número decimal: ") # Se  solicita u numero decimal
